@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t">
+<title id="t">Samrender Singh Saini – CS Undergrad at VIT</title>
+<defs>
+  <clipPath id="frame"><rect width="1280" height="360" rx="16"/></clipPath>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#22D3EE" stroke-opacity="0.08" stroke-width="1"/>
+  </pattern>
+  <filter id="glow" x="-10%" y="-50%" width="120%" height="200%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/>
+    <feFlood flood-color="#22D3EE" flood-opacity="0.55"/>
+    <feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="c1"><rect x="64" y="188" height="36" width="0">
+    <animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.12;0.28;0.32;1" values="0;370;370;0;0"/>
+  </rect></clipPath>
+  <clipPath id="c2"><rect x="64" y="188" height="36" width="0">
+    <animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.3333;0.4533;0.6133;0.6533;1" values="0;0;432;432;0;0"/>
+  </rect></clipPath>
+  <clipPath id="c3"><rect x="64" y="188" height="36" width="0">
+    <animate attributeName="width" dur="9s" repeatCount="indefinite" keyTimes="0;0.6667;0.7867;0.9467;0.9867;1" values="0;0;416;416;0;0"/>
+  </rect></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1280" height="360" fill="#0B0F17"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1280" height="2" fill="#22D3EE" opacity="0.18">
+    <animate attributeName="y" dur="7s" repeatCount="indefinite" values="-2;362"/>
+  </rect>
+
+  <!-- intro -->
+  <text x="64" y="96" font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="4" fill="#22D3EE">CS UNDERGRAD · VIT</text>
+  <text x="64" y="160" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#F9FAFB" filter="url(#glow)">Samrender Singh Saini</text>
+
+  <!-- typing roles -->
+  <g font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="26" fill="#A3E635">
+    <text x="64" y="214" clip-path="url(#c1)">Generative AI Developer</text>
+    <text x="64" y="214" clip-path="url(#c2)">Graph ML &amp; Network Security</text>
+    <text x="64" y="214" clip-path="url(#c3)">Oracle OCI GenAI Certified</text>
+  </g>
+  <rect x="68" y="192" width="12" height="28" fill="#A3E635">
+    <animate attributeName="x" dur="9s" repeatCount="indefinite" keyTimes="0;0.12;0.28;0.32;0.3333;0.4533;0.6133;0.6533;0.6667;0.7867;0.9467;0.9867;1" values="68;438;438;68;68;500;500;68;68;484;484;68;68"/>
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.5;0.5;1"/>
+  </rect>
+
+  <!-- skill chips -->
+  <g font-family="'JetBrains Mono', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15" text-anchor="middle" fill="#E5E7EB">
+    <rect x="64" y="262" width="90" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="64" y="262" width="90" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="0s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="109" y="286">Python</text>
+
+    <rect x="166" y="262" width="99" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="166" y="262" width="99" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="1s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="215.5" y="286">PyTorch</text>
+
+    <rect x="277" y="262" width="61" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="277" y="262" width="61" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="2s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="307.5" y="286">C++</text>
+
+    <rect x="350" y="262" width="70" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="350" y="262" width="70" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="3s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="385" y="286">Java</text>
+
+    <rect x="432" y="262" width="61" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="432" y="262" width="61" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="4s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="462.5" y="286">SQL</text>
+
+    <rect x="505" y="262" width="147" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="505" y="262" width="147" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="5s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="578.5" y="286">Oracle Cloud</text>
+
+    <rect x="664" y="262" width="80" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="664" y="262" width="80" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="6s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="704" y="286">Linux</text>
+
+    <rect x="756" y="262" width="61" height="38" rx="19" fill="#111827" stroke="#263244"/>
+    <rect x="756" y="262" width="61" height="38" rx="19" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="8s" begin="7s" repeatCount="indefinite" keyTimes="0;0.06;0.14;1" values="0;1;0;0"/></rect>
+    <text x="786.5" y="286">Git</text>
+  </g>
+
+  <!-- live network graph -->
+  <g transform="translate(900 55)" fill="none">
+    <g stroke="#2B3A4A" stroke-width="2.5">
+      <path d="M30 125 L100 45"/><path d="M30 125 L110 200"/><path d="M100 45 L180 120"/><path d="M110 200 L180 120"/>
+      <path d="M100 45 L245 35"/><path d="M180 120 L245 35"/><path d="M180 120 L250 205"/><path d="M110 200 L250 205"/>
+    </g>
+    <path d="M245 35 L310 120" stroke="#F472B6" stroke-width="2.5" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" dur="1s" repeatCount="indefinite" values="12;0"/>
+    </path>
+    <path d="M250 205 L310 120" stroke="#F472B6" stroke-width="2.5" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" dur="1s" repeatCount="indefinite" values="12;0"/>
+    </path>
+    <circle r="4.5" fill="#22D3EE">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M30 125 L100 45 L180 120 L245 35 L310 120"/>
+    </circle>
+    <circle r="4.5" fill="#22D3EE">
+      <animateMotion dur="4s" begin="2s" repeatCount="indefinite" path="M30 125 L110 200 L180 120 L250 205 L310 120"/>
+    </circle>
+    <g fill="#0B0F17" stroke="#64748B" stroke-width="2.5">
+      <circle cx="30" cy="125" r="8"/><circle cx="100" cy="45" r="8"/><circle cx="110" cy="200" r="8"/>
+      <circle cx="245" cy="35" r="8"/><circle cx="250" cy="205" r="8"/>
+    </g>
+    <circle cx="180" cy="120" r="11" fill="#0B0F17" stroke="#E5E7EB" stroke-width="2.5"/>
+    <circle cx="310" cy="120" r="10" stroke="#F472B6" stroke-width="2">
+      <animate attributeName="r" dur="2s" repeatCount="indefinite" values="10;32"/>
+      <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.8;0"/>
+    </circle>
+    <circle cx="310" cy="120" r="10" fill="#0B0F17" stroke="#F472B6" stroke-width="3"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="15.5" fill="none" stroke="#1F2937"/>
+</g>
+</svg>
